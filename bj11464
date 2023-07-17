@@ -1,0 +1,83 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class CodingStudy {
+	static char[][] arr;
+	static String[] arrSimple;
+	static int N;
+	static int M;
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String[] input = (br.readLine()).split(" ");
+		while(!(Integer.parseInt(input[0])==0&&Integer.parseInt(input[1])==0)) {
+			N = Integer.parseInt(input[0]);
+			M = Integer.parseInt(input[1]);
+			arr = new char[N][M];
+			String input_;
+			for(int i = 0 ; i < N ; i++) {
+				input_ = br.readLine();
+				for(int j = 0 ; j < M ; j++) {
+					arr[i][j] = input_.charAt(j);
+				}
+			}
+			arrSimple = new String[M];
+			
+			if(N==1) {
+				toSimple();
+				for(int i = 0 ; i < M ; i++)
+					System.out.print(arrSimple[i]);
+				//mtple();
+			} else if (N==2) {
+				
+			} else {
+				
+			}
+			input = (br.readLine()).split(" ");
+		}
+	}
+	
+	public static void mtple() {
+		int temp;
+		for(int i = 0 ; i < M ; i++) {
+			if(arr[0][i]=='*') {
+				temp = Integer.parseInt(arrSimple[i-1])*Integer.parseInt(arrSimple[i+1]);
+				arrSimple[i-1] = String.valueOf(temp);
+				arrSimple[i]=" ";
+				arrSimple[i+1]=" ";
+			}
+			i+=2;
+		}
+	}
+	
+	public static void toSimple() {
+		char[] temp = new char[7];
+		int cnt = 0;
+		for(int i = 0 ; i < M ; i++) {
+			if(arr[0][i]=='*'||arr[0][i]=='+'||arr[0][i]=='-') {
+				arrSimple[cnt]=String.valueOf(arr[0][i]);
+			} else if(arr[0][i]!=' ') {
+				for(int k = 0 ; k < 7 ; k++) {
+					temp[k]=' ';
+				}
+				int x = 0;
+				while(arr[0][i+x]!=' ') {
+					temp[x]=arr[0][i+x];
+					x++;
+					if(i+x==M) break;
+				}
+				int tempInteger = 0;
+				for(int k = 0 ; k < 7 ; k++) {
+					int num = 1;
+					if(temp[k]==' ') {
+						break;
+					}
+					tempInteger += (int)(temp[k]-'0')*num;
+					num*=10;
+				}
+				arrSimple[cnt]=String.valueOf(tempInteger);
+				i+=x;
+			}
+			cnt++;
+		}
+	}
+}
