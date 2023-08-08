@@ -46,13 +46,13 @@ public class Main {
 		int x = cnt, y = cnt;
 		while(index < round) {
 			if(index+num<=n-(2*cnt)-1) {
-				total[cnt+][cnt] = graph[x+=dt[d][0]][y+=dt[d][1]];
+				total[cnt][cnt] = graph[x+=dt[d][0]][y+=dt[d][1]];
 			} else if(index+num<=n+m-(2*(2*cnt))-2) {
-				total[n-(2*cnt)-1][cnt+] = graph[x+=dt[d][0]][y+=dt[d][1]];
+				total[n-(2*cnt)-1][cnt] = graph[x+=dt[d][0]][y+=dt[d][1]];
 			} else if(index+num<=2*n+m-(3*(2*cnt))-3) {
-				total[][m-(2*cnt)-1] = graph[x+=dt[d][0]][y+=dt[d][1]];
+				total[(n-(2*cnt)-1)][m-(2*cnt)-1] = graph[x+=dt[d][0]][y+=dt[d][1]];
 			} else {
-				total[cnt][] = graph[x+=dt[d][0]][y+=dt[d][1]];
+				total[cnt][(m-(2*cnt)-1)] = graph[x+=dt[d][0]][y+=dt[d][1]];
 			}
 			if(index == n-(2*cnt)-1) {
 				d = 1;
