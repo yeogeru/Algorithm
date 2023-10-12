@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
  * @author paternalism532
  *      NP
  */
-public class Solution {
+public class SWEA1247 {
     static Point[] clients;
     static int[] indexArr;
     static int n;
