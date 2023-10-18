@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * @author paternalism532
  *	그래프 탐색 구현
  */
-public class BOJ2458 {
+public class BOJ02458 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");;
