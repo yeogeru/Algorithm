@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree
  */
-public class BOJ2357 {
+public class BOJ02357 {
 	static int tree[][], start;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
