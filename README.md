@@ -1,1 +1,2 @@
-# BaekjoonPrac
+# Algorithm
+author : yeogeru(paternalism532)
