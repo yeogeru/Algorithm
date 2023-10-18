@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  *
  *	BFS, 백트래킹 구현
  */
-public class BOJ9205 {
+public class BOJ09205 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
