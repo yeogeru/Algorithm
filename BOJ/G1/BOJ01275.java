@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree
  */
-public class BOJ1275 {
+public class BOJ01275 {
 	static long tree[];
 	static int start;
     public static void main(String[] args) throws IOException {
