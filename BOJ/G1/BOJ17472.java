@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
  *	BFS, MST 활용
  */
