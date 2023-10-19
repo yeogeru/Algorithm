@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  * 		이분탐색, LIS
  */
 public class BOJ12015 {
