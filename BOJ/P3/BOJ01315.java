@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *	dynamic programming
  */
 public class BOJ1315 {
