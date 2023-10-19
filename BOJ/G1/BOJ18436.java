@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 
  * @author paternalism532
  *
- *	Segment Tree
+ *	yeogeru
  */
 public class BOJ18436 {
 	static int tree[][], start;
