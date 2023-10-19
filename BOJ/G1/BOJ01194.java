@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  * 
  * 비트마스킹, BFS 활용 구현
  * 
