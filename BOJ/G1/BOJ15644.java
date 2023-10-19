@@ -8,7 +8,7 @@ import java.util.Queue;
  /**
  * 
  * @author yeogeru
- *         DFS & DP
+ *         BFS 그래프탐색 구현
  */
 public class BOJ15644 {
 	static class Marble {
