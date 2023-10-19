@@ -5,8 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 /**
  * 
- * @author paternalism532
- *
+ * @author yeogeru
  *	Segment Tree, 이분탐색
  */
 public class BOJ01168 {
