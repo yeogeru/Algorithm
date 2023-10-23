@@ -5,7 +5,7 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  * 		BFS
  */
 public class BOJ03055 {
