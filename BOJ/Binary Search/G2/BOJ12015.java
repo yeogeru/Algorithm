@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 
  * @author yeogeru
- * 		이분탐색, LIS
+ * 		Binary Search, LIS
  */
 public class BOJ12015 {
     public static void main(String[] args) throws IOException {
