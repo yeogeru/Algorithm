@@ -6,9 +6,9 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- * DFS, DP, PriorityQueue 구현
+ * DFS, DP, PriorityQueue implementation
  */
 public class BOJ29792 {
 	static int n, m, k;
