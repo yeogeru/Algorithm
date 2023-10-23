@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 /**
  * 
  * @author yeogeru
- *	Segment Tree, 이분탐색
+ *	Segment Tree, Binary Search
  */
 public class BOJ01168 {
     static int[] tree;
