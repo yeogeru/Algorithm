@@ -3,6 +3,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
+/**
+ * 
+ * @author yeogeru
+ *		
+ *    Implementation, BackTracking, Brute Force
+ */
 public class Boj12094 {
     static int n, max = 2;
     static int[][] map;
