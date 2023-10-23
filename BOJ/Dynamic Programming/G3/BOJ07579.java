@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
  *	DP, Knapsack
  */
