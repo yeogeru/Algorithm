@@ -8,9 +8,9 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	조합, BFS 구현
+ *	BFS, Combination implementation
  */
 public class BOJ14502 {
 	static int[][] map;
