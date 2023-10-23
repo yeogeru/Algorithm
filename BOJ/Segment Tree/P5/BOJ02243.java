@@ -6,9 +6,9 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	Segment Tree, 이분탐색
+ *	Segment Tree, Binary Search
  */
 public class BOJ02243 {
 	static int start;
