@@ -1,2 +1,2 @@
 # Algorithm
-author : yeogeru(paternalism532)
+author : yeogeru
