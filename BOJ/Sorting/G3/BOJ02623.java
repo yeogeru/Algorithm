@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Queue;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	위상정렬
+ *	Topological Sorting
  */
 public class BOJ02623 {
 	static class Singer {
