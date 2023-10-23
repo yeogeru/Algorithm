@@ -7,9 +7,9 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	BFS, 백트래킹 구현
+ *	BFS, Backtracking, implementation
  */
 public class BOJ09205 {
 	public static void main(String[] args) throws Exception {
