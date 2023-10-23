@@ -6,9 +6,9 @@ import java.util.Collections;
 import java.util.List;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	투 포인터, 정렬
+ *	Two Pointer, Sorting
  */
 public class BOJ02470 {
 	static List<Integer> arr = new ArrayList<>();
