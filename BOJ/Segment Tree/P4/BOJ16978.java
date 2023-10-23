@@ -8,9 +8,9 @@ import java.util.HashMap;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	Segment Tree 활용
+ *	Segment Tree
  */
 public class BOJ16978 {
 	static class SegQuery implements Comparable<SegQuery>{
