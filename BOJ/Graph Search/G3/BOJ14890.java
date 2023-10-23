@@ -4,8 +4,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
- *	그래프 탐색 구현
+ * @author yeogeru
+ *	    Graph Search
  */
 public class BOJ14890 {
     public static void main(String[] args) throws IOException{
