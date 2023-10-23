@@ -6,9 +6,9 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	yeogeru
+ *	Segment Tree
  */
 public class BOJ18436 {
 	static int tree[][], start;
