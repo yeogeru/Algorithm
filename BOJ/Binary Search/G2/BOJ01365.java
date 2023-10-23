@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 
  * @author yeogeru
  *
- *	이분탐색
+ *	Binary Search
  */
 public class BOJ1365 {
 	public static void main(String[] args) throws IOException{
