@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	브루트포스
+ *	Brute Force
  */
 public class BOJ01107 {
 	static int integer_N;
