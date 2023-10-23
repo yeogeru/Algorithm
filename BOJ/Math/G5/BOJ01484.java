@@ -5,9 +5,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	수학
+ *	    Math
  */
 public class BOJ01484 {
     public static void main(String[] args) throws IOException {
