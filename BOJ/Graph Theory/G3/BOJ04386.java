@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
  *	MST
  */
