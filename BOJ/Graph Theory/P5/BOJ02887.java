@@ -7,9 +7,9 @@ import java.util.Comparator;
 import java.util.List;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	정렬, MST
+ *	MST, Sorting
  */
 public class BOJ02887 {
 	static class Planet{
