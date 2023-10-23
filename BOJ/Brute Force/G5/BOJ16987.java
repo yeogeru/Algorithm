@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	브루트포스, 백트래킹
+ *	Brute Force, Backtracking
  */
 public class BOJ16987 {
 	static int n, atk[], maxtotal = 0;
