@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
  *	BFS
  */
