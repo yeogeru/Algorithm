@@ -9,7 +9,7 @@ import java.util.Queue;
  /**
  * 
  * @author yeogeru
- *         BFS 그래프탐색 구현
+ *         BFS, implementation
  */
 public class BOJ16234 {
 	static int n;
