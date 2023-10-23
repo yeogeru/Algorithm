@@ -8,9 +8,9 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	Deque 활용
+ *	Implementation, Deque
  */
 public class BOJ30039 {
     public static void main(String[] args) throws IOException {
