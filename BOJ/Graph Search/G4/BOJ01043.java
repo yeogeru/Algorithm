@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.StringTokenizer;
 /**
  * 
- * @author paternalism532
+ * @author yeogeru
  *
- *	그래프 탐색
+ *	Graph Search
  */
 public class BOJ01043 {
 	static List<List<Integer>> party = new ArrayList<>();
