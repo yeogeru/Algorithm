@@ -9,7 +9,7 @@ import java.util.List;
  * 
  * @author paternalism532
  *
- *	투 포인터, 정렬
+ *	Two Pointer, Sort
  */
 public class BOJ02473 {
 	static List<Long> list;
