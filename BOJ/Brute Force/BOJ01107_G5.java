@@ -9,7 +9,7 @@ import java.util.List;
  *
  *	Brute Force
  */
-public class BOJ01107 {
+public class BOJ01107_G5 {
 	static int integer_N;
 	static String n;
 	static boolean[] error;
