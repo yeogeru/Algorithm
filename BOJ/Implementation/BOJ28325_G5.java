@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  * 	implementation
  */
-public class BOJ28325 {
+public class BOJ28325_G5 {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
