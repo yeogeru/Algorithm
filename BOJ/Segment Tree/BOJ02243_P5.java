@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree, Binary Search
  */
-public class BOJ02243 {
+public class BOJ02243_P5 {
 	static int start;
 	static int[] tree;
 	static final int CANDY = 1_000_000;
