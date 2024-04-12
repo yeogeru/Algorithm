@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  *
  *	DP, Knapsack
  */
-public class BOJ12865 {
+public class BOJ12865_G5 {
 	static final int COST_MAX_COUNT = 100*100;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
