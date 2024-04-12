@@ -11,7 +11,7 @@ import java.util.List;
  *
  *	MST, Sorting
  */
-public class BOJ02887 {
+public class BOJ02887_P5 {
 	static class Planet{
 		int idx, x, y, z;
 		public Planet(int idx, int x, int y, int z) {
