@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  *
  *	Brute Force, Backtracking
  */
-public class BOJ16987 {
+public class BOJ16987_G5 {
 	static int n, atk[], maxtotal = 0;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
