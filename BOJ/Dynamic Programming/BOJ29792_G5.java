@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  * DFS, DP, PriorityQueue implementation
  */
-public class BOJ29792 {
+public class BOJ29792_G5 {
 	static int n, m, k;
 	static long[] maplechar;
 	static PriorityQueue<Long> charmeso = new PriorityQueue<>(new Comparator<Long>() {
