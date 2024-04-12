@@ -8,7 +8,7 @@ import java.util.List;
  * @author yeogeru
  *	  Two Pointer, Math
  */
-public class BOJ01643 {
+public class BOJ01643_G3 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	int n = Integer.parseInt(br.readLine());
