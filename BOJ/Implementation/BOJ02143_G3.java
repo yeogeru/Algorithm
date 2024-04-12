@@ -6,7 +6,7 @@ import java.util.HashMap;
  * @author yeogeru
  *	  Implementation, Data Structure
  */
-public class BOJ02143 {
+public class BOJ02143_G3 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	int t = Integer.parseInt(br.readLine());
