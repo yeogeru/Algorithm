@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  *	Graph Search
  */
-public class BOJ01043 {
+public class BOJ01043_G4 {
 	static List<List<Integer>> party = new ArrayList<>();
 	static boolean[] trueman;
 	static int n, m;
