@@ -9,7 +9,7 @@ import java.util.Queue;
  *
  *	BFS
  */
-public class BOJ07576 {
+public class BOJ07576_G5 {
 	static class Point {
 		int x, y;
 		public Point(int x, int y) {
