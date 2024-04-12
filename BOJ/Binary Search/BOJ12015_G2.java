@@ -11,7 +11,7 @@ import java.util.List;
  * @author yeogeru
  * 		Binary Search, LIS
  */
-public class BOJ12015 {
+public class BOJ12015_G2 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
