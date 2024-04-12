@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  *	Graph Search, implementation
  */
-public class BOJ17144 {
+public class BOJ17144_G4 {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
