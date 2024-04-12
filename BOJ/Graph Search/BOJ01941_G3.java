@@ -10,7 +10,7 @@ import java.util.Queue;
  *
  *	조합, BFS
  */
-public class BOJ01941 {
+public class BOJ01941_G3 {
 	static boolean[][] map = new boolean[5][5];
 	static int result = 0;
 	static int[][] dt = {{-1,0},{1,0},{0,-1},{0,1}};
