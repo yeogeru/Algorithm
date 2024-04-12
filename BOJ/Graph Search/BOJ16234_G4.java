@@ -11,7 +11,7 @@ import java.util.Queue;
  * @author yeogeru
  *         BFS, implementation
  */
-public class BOJ16234 {
+public class BOJ16234_G4 {
 	static int n;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
