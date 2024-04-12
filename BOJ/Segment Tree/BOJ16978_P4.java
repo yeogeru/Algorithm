@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree
  */
-public class BOJ16978 {
+public class BOJ16978_P4 {
 	static class SegQuery implements Comparable<SegQuery>{
 		int idx, type, seq, a, b;
 		public SegQuery(int idx, int type, int seq, int a, int b) {
