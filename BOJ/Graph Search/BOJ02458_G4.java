@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  *	    Graph Search
  */
-public class BOJ02458 {
+public class BOJ02458_G4 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");;
