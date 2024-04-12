@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  *	Binary Search
  */
-public class BOJ1365 {
+public class BOJ1365_G2 {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
