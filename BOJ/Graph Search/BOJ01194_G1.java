@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * 비트마스킹, BFS 활용 구현
  * 
  */
-public class BOJ01194 {
+public class BOJ01194_G1 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	StringTokenizer st = new StringTokenizer(br.readLine(), " ");
