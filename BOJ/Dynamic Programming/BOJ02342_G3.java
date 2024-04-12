@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
  *
  *	DP
  */
-public class BOJ02342 {
+public class BOJ02342_G3 {
 	static int n;
 	static int[][][] dp;
 	static int[] arr;
