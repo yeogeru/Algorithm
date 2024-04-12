@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
  * @author yeogeru
  *         Segment Tree
  */
-public class BOJ10868 {
+public class BOJ10868_G1 {
 	static int n, start;
 	static int[] tree;
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
