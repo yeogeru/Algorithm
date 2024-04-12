@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
  * @author yeogeru
  *	Segment Tree, Binary Search
  */
-public class BOJ01168 {
+public class BOJ01168_P3 {
     static int[] tree;
     static int start, n, k;
 	public static void main(String[] args) throws IOException {
