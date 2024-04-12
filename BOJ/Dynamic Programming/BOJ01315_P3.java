@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  *	dynamic programming
  */
-public class BOJ1315 {
+public class BOJ1315_P3 {
 	static int[][] dp = new int[1001][1001];
 	static int[] STR_Q, INT_Q, PNT_Q;
 	static boolean[] clear;
