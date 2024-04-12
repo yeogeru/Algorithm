@@ -8,7 +8,7 @@ import java.util.Queue;
  * @author yeogeru
  *         BFS 그래프탐색 구현
  */
-public class BOJ13460 {
+public class BOJ13460_G1 {
 	static class Marble {
 		int rx, ry, bx, by;
 		boolean redGoal, blueGoal;
