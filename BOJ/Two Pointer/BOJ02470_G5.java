@@ -10,7 +10,7 @@ import java.util.List;
  *
  *	Two Pointer, Sorting
  */
-public class BOJ02470 {
+public class BOJ02470_G5 {
 	static List<Integer> arr = new ArrayList<>();
 	static int[] total = new int[2];
 	static int min = Integer.MAX_VALUE;
