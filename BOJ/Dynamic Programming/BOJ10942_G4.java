@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
  * @author yeogeru
  *	  Dynamic Programming
  */
-public class BOJ10942 {
+public class BOJ10942_G4 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
