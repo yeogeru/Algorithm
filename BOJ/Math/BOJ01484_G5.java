@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
  *
  *	    Math
  */
-public class BOJ01484 {
+public class BOJ01484_G5 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
