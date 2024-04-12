@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree
  */
-public class BOJ18436 {
+public class BOJ18436_G1 {
 	static int tree[][], start;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
