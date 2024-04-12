@@ -9,7 +9,7 @@ import java.util.HashMap;
  * @author yeogeru
  *         DP, LIS
  */
-public class BOJ14002 {
+public class BOJ14002_G4 {
 	static int[] dp, arr;
 	static int n;
 	static HashMap<Integer, Integer> map = new HashMap<>();
