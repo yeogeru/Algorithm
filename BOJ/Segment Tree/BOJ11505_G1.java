@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  *
  *	Segment Tree
  */
-public class BOJ11505 {
+public class BOJ11505_G1 {
 	static int n, start;
 	static long[] tree;
 	static final int MOD = 1_000_000_007;
