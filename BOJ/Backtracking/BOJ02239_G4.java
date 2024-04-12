@@ -7,7 +7,7 @@ import java.util.List;
  * @author yeogeru
  *	  BackTracking, Implementation
  */
-public class BOJ02239 {
+public class BOJ02239_G4 {
 	static class Sudoku {
 		int x, y, pos;
 		public Sudoku(int x, int y, int pos) {
