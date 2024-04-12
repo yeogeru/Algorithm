@@ -10,7 +10,7 @@ import java.util.List;
  *
  *	MST
  */
-public class BOJ04386 {
+public class BOJ04386_G3 {
 	static class Star implements Comparable<Star>{
 		int prev, next;
 		double dist;
