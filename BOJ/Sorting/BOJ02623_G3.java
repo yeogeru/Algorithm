@@ -13,7 +13,7 @@ import java.util.Queue;
  *
  *	Topological Sorting
  */
-public class BOJ02623 {
+public class BOJ02623_G3 {
 	static class Singer {
 		List<Integer> prev, next;
 		int idx;
