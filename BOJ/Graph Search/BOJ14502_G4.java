@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  *
  *	BFS, Combination implementation
  */
-public class BOJ14502 {
+public class BOJ14502_G4 {
 	static int[][] map;
 	static List<int[]> list = new ArrayList<>();
 	static List<int[]> vir = new ArrayList<>();
