@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  *
  *	Greedy Algorithm
  */
-public class BOJ01700{
+public class BOJ01700_G1{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
