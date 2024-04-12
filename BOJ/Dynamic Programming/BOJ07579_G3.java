@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
  *
  *	DP, Knapsack
  */
-public class BOJ07579 {
+public class BOJ07579_G3 {
 	static final int COST_MAX_COUNT = 100*100;
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
