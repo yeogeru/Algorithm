@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  * 		BFS
  */
-public class BOJ03055 {
+public class BOJ03055_G4 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
