@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
  * @author yeogeru
  *         Segment Tree
  */
-public class Main {
+public class BOJ14428_G1 {
 	static class Node {
 		int val, idx;
 		public Node(int x, int y) {
