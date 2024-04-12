@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  *
  *	MST
  */
-public class BOJ20040 {
+public class BOJ20040_G4 {
 	static int[] parents;
 	static boolean union(int a, int b) {
 		int aRoot = find(a);
