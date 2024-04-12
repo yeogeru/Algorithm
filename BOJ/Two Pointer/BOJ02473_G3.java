@@ -11,7 +11,7 @@ import java.util.List;
  *
  *	Two Pointer, Sort
  */
-public class BOJ02473 {
+public class BOJ02473_G3 {
 	static List<Long> list;
 	static int[] minTotal = new int[3];
 	static long min = Long.MAX_VALUE;
