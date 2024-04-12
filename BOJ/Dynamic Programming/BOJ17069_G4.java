@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
  * @author yeogeru
  * 		DFS & DP
  */
-public class BOJ17069 {
+public class BOJ17069_G4 {
 	static int[] dtx = {0, 1, 1};
 	static int[] dty = {1, 0, 1};
 	static boolean[][] map;
