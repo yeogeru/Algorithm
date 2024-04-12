@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
  * @author yeogeru
  *	  Bit Masking
  */
-public class BOJ1094 {
+public class BOJ1094_S5 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String x = Integer.toBinaryString(Integer.parseInt(br.readLine()));
