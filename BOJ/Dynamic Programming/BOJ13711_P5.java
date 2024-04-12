@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
  * @author yeogeru
  *         DP, LCS
  */
-public class BOJ13711 {
+public class BOJ13711_P5 {
     public static void main(String[] args) throws IOException {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	int n = Integer.parseInt(br.readLine());
