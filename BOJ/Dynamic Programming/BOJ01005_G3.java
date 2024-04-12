@@ -10,7 +10,7 @@ import java.util.List;
  * @author yeogeru
  *	  Dynamic Programming
  */
-public class BOJ01005 {
+public class BOJ01005_G3 {
 	static int[] dp, time;
 	static List<List<Integer>> prevList = new ArrayList<>();
     public static void main(String[] args) throws IOException {
