@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  *
  *	BFS, MST 활용
  */
-public class BOJ17472 {
+public class BOJ17472_G1 {
 	static class Bridge implements Comparable<Bridge>{
 		int start, dest, leng;
 		public Bridge(int start, int dest, int leng) {
