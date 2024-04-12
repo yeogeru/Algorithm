@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
  * @author yeogeru
  *	  Brute Force, Implementation
  */
-public class BOJ14500 {
+public class BOJ14500_G4 {
 	static int[][] dt = {{-1,0},{1,0},{0,-1},{0,1}};
 	static int[][] graph;
 	static int total = Integer.MIN_VALUE;
