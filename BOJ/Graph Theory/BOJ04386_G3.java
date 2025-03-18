@@ -37,7 +37,7 @@ public class BOJ04386_G3 {
     		graph[i][0] = Double.parseDouble(input[0]);
     		graph[i][1] = Double.parseDouble(input[1]);
     	}
-    	List<Star> list = new ArrayList<Main.Star>();
+    	List<Star> list = new ArrayList<Star>();
     	for(int i = 0 ; i < n-1 ; i++) {
     		for(int j = i+1 ; j < n ; j++) {
     			double dist_x = graph[i][0]-graph[j][0];

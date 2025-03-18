@@ -26,7 +26,7 @@ public class BOJ07576_G5 {
     	m = Integer.parseInt(input[0]);
     	n = Integer.parseInt(input[1]);
     	boolean[][] visit = new boolean[n][m];
-    	Queue<Point> que = new LinkedList<Main.Point>();
+    	Queue<Point> que = new LinkedList<Point>();
     	int[][] tomato = new int[n][m];
     	int noripe = 0;
     	for(int i = 0 ; i < n ; i++) {

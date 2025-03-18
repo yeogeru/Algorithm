@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
  *		
  *    Implementation, BackTracking, Brute Force
  */
-public class Boj12094_P4 {
+public class BOJ12094_P4 {
     static int n, max = 2;
     static int[][] map;
     public static void main(String[] args) throws IOException{

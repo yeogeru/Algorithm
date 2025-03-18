@@ -53,7 +53,7 @@ public class BOJ13459_G1 {
     			} 
     		}
     	}
-    	Queue<Marble> que = new LinkedList<Main.Marble>();
+    	Queue<Marble> que = new LinkedList<Marble>();
     	que.add(init);
     	visit[init.rx][init.ry][init.bx][init.by] = true; 
     	int depth = 0;

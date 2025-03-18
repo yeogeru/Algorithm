@@ -31,7 +31,7 @@ public class BOJ02623_G3 {
     	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     	String[] input = (br.readLine()).split(" ");
     	int n = Integer.parseInt(input[0]);
-    	List<Singer> list = new ArrayList<Main.Singer>();
+    	List<Singer> list = new ArrayList<Singer>();
     	list.add(null);
     	for(int i = 1 ; i <= n ; i++) list.add(new Singer(new ArrayList<>(), new ArrayList<>(), i, false));
     	int m = Integer.parseInt(input[1]);

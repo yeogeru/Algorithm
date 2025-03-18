@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  *
  *	BFS, Backtracking, implementation
  */
-public class BOJ09205 {
+public class BOJ09205_G5 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

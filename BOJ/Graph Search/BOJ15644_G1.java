@@ -57,7 +57,7 @@ public class BOJ15644_G1 {
     			} 
     		}
     	}
-    	Queue<Marble> que = new LinkedList<Main.Marble>();
+    	Queue<Marble> que = new LinkedList<Marble>();
     	List<Integer> moveResult = new ArrayList<>();
     	que.add(init);
     	visit[init.rx][init.ry][init.bx][init.by] = true; 
