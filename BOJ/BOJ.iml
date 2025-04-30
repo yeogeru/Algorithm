@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Segment Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Two Pointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Data Structure" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
