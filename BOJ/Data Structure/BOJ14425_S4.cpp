@@ -26,6 +26,7 @@ struct Trie
     Trie()
     {
         root = new Node();
+        
     }
 
     void insert(const string &str)
