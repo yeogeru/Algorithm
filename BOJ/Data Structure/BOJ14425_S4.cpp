@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unordered_map>
+#include <map>
 using namespace std;
 
 /**
@@ -8,66 +8,42 @@ using namespace std;
  * @since : 2025-05-03
  */
 
-struct Node
-{
-    unordered_map<char, Node *> children;
-    bool isEndOfWord;
-
-    Node()
-    {
-        isEndOfWord = false;
-    }
-};
-
 struct Trie
 {
-    Node *root;
+    map<char, Trie *> node;
+    bool isEndofWord;
 
     Trie()
     {
-        root = new Node();
-        
+        isEndofWord = false;
     }
 
-    void insert(const string &str)
+    void insert(string &str, int index)
     {
-        Node *node = root;
-
-        for (char c : str)
+        if (index == str.length())
         {
-            if (node->children.count(c) == 0)
-            {
-                node->children[c] = new Node();
-            }
-            node = node->children[c];
+            this->isEndofWord = true;
+            return;
         }
-        node->isEndOfWord = true;
-    }
 
-    bool search(const string &str)
-    {
-        Node *node = root;
-        for (char c : str)
+        if (node.count(str[index]) == 0)
         {
-            if (node->children.count(c) == 0)
-                return false;
-            node = node->children[c];
+            Trie *child = new Trie;
+            node[str[index]] = child;
         }
-        return node->isEndOfWord;
+
+        node[str[index]]->insert(str, index + 1);
     }
 
-    ~Trie()
+    bool search(string &str, int index)
     {
-        erase(root);
-    }
+        if (index == str.length())
+            return this->isEndofWord;
 
-    void erase(Node *node)
-    {
-        for (auto &pair : node->children)
-        {
-            erase(pair.second);
-        }
-        delete node;
+        if (node.count(str[index]) == 0)
+            return false;
+
+        return node[str[index]]->search(str, index + 1);
     }
 };
 
@@ -76,18 +52,23 @@ int main()
     Trie trie;
     int n, m;
     cin >> n >> m;
-    for(int i = 0 ; i < n ; i++) {
+    for (int i = 0; i < n; i++)
+    {
         string str;
         cin >> str;
-        trie.insert(str);
+        trie.insert(str, 0);
     }
 
     int result = 0;
 
-    for(int i = 0 ; i < m ; i++) {
+    for (int i = 0; i < m; i++)
+    {
         string str;
         cin >> str;
-        if(trie.search(str)) ++result;
+        if (trie.search(str, 0))
+        {
+            ++result;
+        }
     }
 
     cout << result << endl;
