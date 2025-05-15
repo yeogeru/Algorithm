@@ -9,7 +9,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Brute Force" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Dynamic Programming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Graph Search" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Graph Theory" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Implementation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
@@ -18,6 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Two Pointer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Data Structure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Divide and Conquer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dijkstra" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MST" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
