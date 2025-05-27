@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Dijkstra" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MST" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/KMP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BFS" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
