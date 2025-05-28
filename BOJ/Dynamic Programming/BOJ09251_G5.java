@@ -1,7 +1,11 @@
 import java.io.*;
 import java.util.*;
-
-public class Main {
+/**
+ * @author : Yeogeru
+ * @description : Dynamic Programming
+ * @since : 2025-05-29
+ */
+public class BOJ09251_G5 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] a = br.readLine().toCharArray();
@@ -15,5 +19,4 @@ public class Main {
         }
         System.out.println(lcs[a.length][b.length]);
     }
-
 }
