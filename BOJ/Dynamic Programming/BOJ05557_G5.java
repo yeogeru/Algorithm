@@ -6,7 +6,7 @@ import java.util.*;
  * @description : Dynamic Programming
  * @since : 2025-05-30
  */
-public class Main {
+public class BOJ05557_G5 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
