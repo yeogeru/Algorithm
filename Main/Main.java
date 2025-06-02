@@ -3,34 +3,32 @@ import java.util.*;
 
 /**
  * @author : Yeogeru
- * @description : Dynamic Programming
- * @since : 2025-05-30
+ * @description : Greedy
+ * @since : 2025-06-02
  */
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        int[] arr = new int[n - 1];
-        long[][] dp = new long[n - 1][21];
-        for (int i = 0; i < n - 1; i++) {
-            arr[i] = Integer.parseInt(st.nextToken());
+        PriorityQueue<int[]> pq = new PriorityQueue<>((o1, o2) -> {
+            if (o1[1] == o2[1]) return Integer.compare(o1[0], o2[0]);
+            return Integer.compare(o1[1], o2[1]);
+        });
+        StringTokenizer st;
+        for (int i = 0; i < n; i++) {
+            st = new StringTokenizer(br.readLine(), " ");
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            pq.offer(new int[]{a, b});
         }
-        int dest = Integer.parseInt(st.nextToken());
-        dp[0][arr[0]] = 1;
-        for (int i = 1; i < n - 1; i++) {
-            for (int j = 0; j <= 20; j++) {
-                if (dp[i - 1][j] == 0) continue;
-                int hap = j + arr[i];
-                int minus = j - arr[i];
-                if (hap >= 0 && hap <= 20) {
-                    dp[i][hap] += dp[i - 1][j];
-                }
-                if (minus >= 0 && minus <= 20) {
-                    dp[i][minus] += dp[i - 1][j];
-                }
-            }
+        int total = 0;
+        int last_time = 0;
+        while (!pq.isEmpty()) {
+            int[] t = pq.poll();
+            if (t[0] < last_time) continue;
+            last_time = t[1];
+            ++total;
         }
-        System.out.println(dp[n - 2][dest]);
+        System.out.println(total);
     }
 }
