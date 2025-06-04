@@ -7,7 +7,7 @@ import java.util.*;
  * @since : 2025-04-23
  */
 
-public class BOJ1520_G3 {
+public class BOJ01520_G3 {
 
     static int N, M;
     static int[][] graph, dp;

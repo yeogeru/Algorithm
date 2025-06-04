@@ -7,7 +7,7 @@ import java.util.*;
  * @since : 2025-04-24
  */
 
-public class BOJ3687_G2 {
+public class BOJ03687_G2 {
 
     static long[] dp_min = new long[101];
     static int[] req_num = {0, 0, 1, 7, 4, 2, 0, 8};
