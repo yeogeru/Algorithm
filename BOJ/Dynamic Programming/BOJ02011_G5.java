@@ -1,12 +1,12 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-06-08
  */
-public class Main {
+public class BOJ02011_G5 {
     static final int MOD = 1_000_000;
     static int[] dp;
     static char[] input;
