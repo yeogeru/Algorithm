@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Greedy
  * @since : 2025-06-09
  */
-public class Main {
+public class BOJ21758_G5 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
