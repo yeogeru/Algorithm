@@ -1,12 +1,15 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-06-14
  */
-public class Main {
+public class BOJ01633_G4 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -20,7 +23,7 @@ public class Main {
             input = br.readLine();
             if (input == null) break;
         }
-
+        
         int n = list.size();
 
         int[][][] dp = new int[n + 1][16][16];
