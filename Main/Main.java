@@ -4,51 +4,34 @@ import java.util.*;
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
- * @since : 2025-06-14
+ * @since : 2025-06-15
  */
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        String input = br.readLine();
-        List<int[]> list = new ArrayList<>();
-        while (!input.isEmpty()) {
-            st = new StringTokenizer(input, " ");
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            list.add(new int[]{a, b});
-            input = br.readLine();
-            if (input == null) break;
+
+        int[][] dp = new int[10001][4];
+        dp[1][1] = 1;
+        dp[2][1] = 1;
+        dp[2][2] = 1;
+        dp[3][1] = 1;
+        dp[3][2] = 1;
+        dp[3][3] = 1;
+        for (int i = 4; i <= 10000; i++) {
+            dp[i][1] += dp[i - 1][1];
+            dp[i][2] += dp[i - 2][1] + dp[i - 2][2];
+            dp[i][3] += dp[i - 3][1] + dp[i - 3][2] + dp[i - 3][3];
         }
 
-        int n = list.size();
-
-        int[][][] dp = new int[n + 1][16][16];
-        dp[0][1][0] = list.get(0)[0];
-        dp[0][0][1] = list.get(0)[1];
-
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j <= 15; j++) {
-                for (int k = 0; k <= 15; k++) {
-                    int white = 0;
-                    int black = 0;
-                    if (j > 0) {
-                        white = dp[i - 1][j - 1][k] + list.get(i)[0];
-                    }
-                    if (k > 0) {
-                        black = dp[i - 1][j][k - 1] + list.get(i)[1];
-                    }
-                    dp[i][j][k] = Math.max(dp[i - 1][j][k], Math.max(white, black));
-
-                    if (j == 15 && k == 15) {
-                        max = Math.max(max, dp[i][j][k]);
-                    }
-                }
-            }
+        int test_case = Integer.parseInt(br.readLine());
+        StringBuilder sb = new StringBuilder();
+        for (int t = 1; t <= test_case; t++) {
+            int n = Integer.parseInt(br.readLine());
+            int sum = dp[n][1] + dp[n][2] + dp[n][3];
+            sb.append(sum);
+            if (t < test_case) sb.append("\n");
         }
-
-        System.out.println(max);
+        System.out.println(sb);
     }
 
 }
