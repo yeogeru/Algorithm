@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-06-23
  */
-public class Main {
+public class BOJ02225_G5 {
     static final int MOD = 1_000_000_000;
 
     public static void main(String[] args) throws Exception {
