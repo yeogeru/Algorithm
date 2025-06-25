@@ -1,12 +1,14 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-06-25
  */
-public class Main {
+public class BOJ17485_G5 {
     static int[] dt = {-1, 0, 1};
 
     public static void main(String[] args) throws Exception {
