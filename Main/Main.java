@@ -4,37 +4,35 @@ import java.util.*;
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
- * @since : 2025-06-29
+ * @since : 2025-07-03
  */
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int test_case = Integer.parseInt(br.readLine());
-
-        long[][] dp = new long[11][2001];
-        Arrays.fill(dp[1], 1);
-        for (int i = 2; i <= 10; i++) {
-            for (int j = 1; j <= 2000; j++) {
-                for (int k = j * 2; k <= 2000; k++) {
-                    dp[i][k] += dp[i - 1][j];
-                }
-            }
-        }
-
-        StringTokenizer st;
-        StringBuilder sb = new StringBuilder();
-        for (int t = 1; t <= test_case; t++) {
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        int D = Integer.parseInt(st.nextToken());
+        int P = Integer.parseInt(st.nextToken());
+        int[] leng = new int[P + 1];
+        int[] cap = new int[P + 1];
+        for (int i = 1; i <= P; i++) {
             st = new StringTokenizer(br.readLine(), " ");
-            int n = Integer.parseInt(st.nextToken());
-            int m = Integer.parseInt(st.nextToken());
-            long result = 0;
-            for (int i = 1; i <= m; i++) {
-                result += dp[n][i];
+            leng[i] = Integer.parseInt(st.nextToken());
+            cap[i] = Integer.parseInt(st.nextToken());
+        }
+        int[][] dp = new int[D + 1][P + 1];
+        Arrays.fill(dp[0], Integer.MAX_VALUE);
+
+        for (int i = 1; i <= D; i++) {
+            for (int j = 1; j <= P; j++) {
+                if (i < leng[j]) {
+                    dp[i][j] = Math.max(dp[i][j], dp[i][j - 1]);
+                    continue;
+                }
+                dp[i][j] = Math.max(dp[i][j - 1], Math.min(dp[i - leng[j]][j - 1], cap[j]));
             }
-            sb.append(result);
-            if (t < test_case) sb.append("\n");
         }
 
-        System.out.println(sb.toString());
+        System.out.println(dp[D][P]);
+
     }
 }
