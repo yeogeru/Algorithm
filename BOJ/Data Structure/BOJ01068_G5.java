@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -6,7 +7,7 @@ import java.util.*;
  * @description : Data Structure, Tree
  * @since : 2025-07-08
  */
-public class Main {
+public class BOJ01068_G5 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
