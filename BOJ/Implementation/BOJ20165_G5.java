@@ -1,12 +1,15 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Implementation
  * @since : 2025-07-10
  */
-public class Main {
+public class BOJ20165_G5 {
     static int n, m;
 
     public static void main(String[] args) throws Exception {
