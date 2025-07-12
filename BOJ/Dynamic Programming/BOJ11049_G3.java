@@ -1,12 +1,14 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-07-12
  */
-public class Main {
+public class BOJ11049_G3 {
     static int n;
     static int[][] arr, dp;
 
