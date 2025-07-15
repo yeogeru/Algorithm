@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-07-15
  */
-public class Main {
+public class BOJ01915_G4 {
     static int n, m, max = 0;
     static boolean[][] graph;
 
@@ -26,7 +27,7 @@ public class Main {
                 }
             }
         }
-
+        
         int[][] dp = new int[n][m];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
