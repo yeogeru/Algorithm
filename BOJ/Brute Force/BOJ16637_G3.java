@@ -1,12 +1,12 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
  * @author : Yeogeru
  * @description : Brute Force
  * @since : 2025-08-03
  */
-public class Main {
+public class BOJ16637_G3 {
     static int[] number, symbol;
     static int max = Integer.MIN_VALUE;
 
