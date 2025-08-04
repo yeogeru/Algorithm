@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Backtracking
  * @since : 2025-08-04
  */
-public class Main {
+public class BOJ17136_G2 {
     static int n = 10;
     static boolean[][] paper;
     static int[][] result;
