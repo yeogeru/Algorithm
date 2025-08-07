@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -6,7 +7,7 @@ import java.util.*;
  * @description : Dijkstra
  * @since : 2025-08-07
  */
-public class Main {
+public class BOJ14938_G4 {
     static class Edge implements Comparable<Edge> {
         int to, weight;
 
