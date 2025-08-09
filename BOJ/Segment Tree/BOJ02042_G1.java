@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Segment Tree
  * @since : 2025-08-09
  */
-public class Main {
+public class BOJ02042_G1 {
     static int n, start;
     static long[] tree;
 
