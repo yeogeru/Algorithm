@@ -1,12 +1,13 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Simulation
  * @since : 2025-09-01
  */
-public class Main {
+public class BOJ14503_G5 {
     static int[] dtr = {-1, 0, 1, 0};
     static int[] dtc = {0, 1, 0, -1};
     static int n, m;
