@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -6,7 +7,7 @@ import java.util.*;
  * @description : Topological Sorting
  * @since : 2025-09-09
  */
-public class Main {
+public class BOJ02252_G3 {
     static int n, m;
 
     public static void main(String[] args) throws Exception {
