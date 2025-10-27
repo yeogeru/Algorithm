@@ -1,7 +1,8 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 
-public class Main {
+public class BOJ02469_G5 {
 
     static int k, n, index;
     static boolean[][] ladder;
