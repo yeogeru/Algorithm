@@ -1,11 +1,13 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 /**
  * @author : Yeogeru
  * @description : Binary Search
  * @since : 2025-11-24
  */
-public class Main {
+public class BOJ20444_G5 {
     public static void main(String args[]) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
