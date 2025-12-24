@@ -1,12 +1,12 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2025-12-24
  */
-public class Main {
+public class BOJ02133_G4 {
     public static void main(String args[]) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
