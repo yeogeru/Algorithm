@@ -1,12 +1,13 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Dynamic Programming
  * @since : 2026-02-18
  */
-public class Main {
+public class BOJ01932_S1 {
     static int n;
     static int[][] triangle, dp;
 
