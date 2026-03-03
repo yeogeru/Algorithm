@@ -1,12 +1,13 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Brute Force
  * @since : 2026-03-03
  */
-public class Main {
+public class BOJ14500_G4_2 {
     static int n, m;
     static int[][] graph;
     static int[][] dtr = {
