@@ -1,12 +1,15 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.PriorityQueue;
+import java.util.Stack;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : Implementation
  * @since : 2026-03-29
  */
-public class Main {
+public class BOJ30892_S1 {
     static int n, k;
     static long t;
 
