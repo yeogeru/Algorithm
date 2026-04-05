@@ -1,12 +1,16 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Queue;
+import java.util.StringTokenizer;
 
 /**
  * @author : Yeogeru
  * @description : TSP
  * @since : 2026-04-05
  */
-public class Main {
+public class BOJ10971_S2 {
     public static void main(String args[]) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
